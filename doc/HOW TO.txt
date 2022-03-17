@@ -1,0 +1,27 @@
+
+Prerequisiti:
+creare su mongoDb un database chiamato student_db
+caricare le due collection:
+1)database_sequence per gestire le sequenze
+2)"students" che conterrà i dati  (qualche dato è già popolato per chiamare i servizi)
+
+
+Caricare la collection 
+La collection postman contiene le chiamate ai 4 servizi implementati:
+
+1) GET ALL in getAllStudents
+   no parametri.
+2) GET age in getStudentAge.
+   parametro:
+             campo badge (una sorta di identificavo univoco facile da gestire). Obbligatorio
+3) GET AVG Grades che restitisce la media dei grades di tutti gli studenti
+   no parametri.
+4) POST create Students serve per inserire un nuovo studente
+    parametri:
+             il campo name. Obbligatorio di tipo stringa
+			 il campo surname. Obbligatorio di tipo stringa
+			 il campo grades. Obbligatorio di tipo numerico
+			 il campo birthdate. Obbligatorio formato  YYYY-MM-DD
+
+			 
+			 

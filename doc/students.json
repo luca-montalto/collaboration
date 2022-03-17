@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "61b336c276cd049dbfb76010"
+  },
+  "badge": "1",
+  "name": "Mario",
+  "surname": "Rossi",
+  "grades": "3",
+  "birthDate": "1980-02-15"
+},{
+  "_id": {
+    "$oid": "61b33d8f30922cc20a7cc036"
+  },
+  "badge": "2",
+  "name": "Saverio",
+  "surname": "Bianchi",
+  "grades": "1",
+  "birthDate": "1988-07-12"
+},{
+  "_id": {
+    "$oid": "61b33d9b30922cc20a7cc038"
+  },
+  "badge": "3",
+  "name": "Marta",
+  "surname": "Verdi",
+  "grades": "8",
+  "birthDate": "1996-03-26"
+},{
+  "_id": {
+    "$oid": "61b33dd530922cc20a7cc03a"
+  },
+  "badge": "4",
+  "name": "Marco",
+  "surname": "Indaco",
+  "grades": "4",
+  "birthDate": "1985-11-24"
+},{
+  "_id": {
+    "$oid": "61b33dd530922cc20a7cc03b"
+  },
+  "badge": "5",
+  "name": "Anna",
+  "surname": "Viola",
+  "grades": "3",
+  "birthDate": "1990-09-14"
+},{
+  "_id": {
+    "$oid": "623366d9726f4f534c0663dc"
+  },
+  "badge": "6",
+  "name": "Red",
+  "surname": "Blue",
+  "grades": "7",
+  "birthDate": "2000-05-19",
+  "_class": "com.badsnails.neosperience.test.model.Student"
+},{
+  "_id": {
+    "$oid": "6233675d726f4f534c0663dd"
+  },
+  "badge": "7",
+  "name": "Moe",
+  "surname": "Green",
+  "grades": "7",
+  "birthDate": "2000-05-19",
+  "_class": "com.badsnails.neosperience.test.model.Student"
+}]

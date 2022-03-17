@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "f7e7f53f-eecd-44f9-ae5e-0331698fe889",
+		"name": "VariousTests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAllstudents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAvgGradestudents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getstudentAge",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/get_age_student?badge=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"get_age_student"
+					],
+					"query": [
+						{
+							"key": "badge",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createStudent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/create_student?name=Moe&surname=Green&birthdate=2000-05-19&grades=7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"create_student"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Moe",
+							"description": "stringa (obbigatorio)"
+						},
+						{
+							"key": "surname",
+							"value": "Green",
+							"description": "stinga (obbigatorio)"
+						},
+						{
+							"key": "birthdate",
+							"value": "2000-05-19",
+							"description": "formato YYYY-MM-DD (obbigatorio)"
+						},
+						{
+							"key": "grades",
+							"value": "7",
+							"description": "numerico (obbigatorio)"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
